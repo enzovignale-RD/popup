@@ -1,0 +1,72 @@
+* {
+    margin:  0px;
+
+
+
+.popup { 
+    posi tion: fixed;
+    top:  -100vh;
+    left:  0px;
+    width:  100%;
+    height: 100 %;   
+    background:  rgba(0, 0, 0, 0.5);
+  transition: top 0ms ease-in-out 300ms;
+
+
+ 
+.popup.a ctive {
+  transition: top 0ms ease-in-out;
+
+  top: 0vh;
+} 
+ 
+.popup .p opup-container {
+    position:  absolute; 
+    top: 5 0%;
+    left: 50 %;
+    transform:  translate(-50%, -50%) scale(1.2);
+    width: 4 00px;
+    padding: 30 px 20px 20px;
+  background: #eee;
+
+  opacity: 0.5;
+    transiti on: all 300ms ease-in-out;
+}  
+
+
+opup.active .popup-container {
+    opacity:  1;
+    tran sform: translate(-50%, -50%) scale(1);
+} 
+ 
+.popup .pop up-container .popup-close {
+    position: a bsolute;
+    top: 10px; 
+    right: 10px; 
+    width:  30px;
+    height: 30px; 
+    background : #111;
+    text-align:  center;
+    line-he ight: 30px;
+ 
+ color: #eee;
+  border-radius: 50%;
+    font-size:  20px;
+    font-weigh t: 600;
+    cursor: poin ter;
+} 
+
+
+opup .popup-container h1 {
+    text-align:  center;
+    font-size:  30px;
+    font-family:  "Raleway";
+    color:  #222;
+
+
+.popup .popup-container p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: "Raleway";
+    color: #555;
+}
